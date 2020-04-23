@@ -1,0 +1,4 @@
+.Pokedex-card{
+    display: flexbox;
+    justify-content: space-evenly;
+}
