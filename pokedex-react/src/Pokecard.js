@@ -9,10 +9,10 @@ class Pokecard extends Component {
         let img = `${poke_api}${this.props.id}.png`
         return (
             <div className="Pokecard">
-                <h1>{this.props.name}</h1>
+                <h1 className="Pokecard-title" >{this.props.name}</h1>
                 <img src={img} alt={this.props.name} />
-                <div>Type: {this.props.type}</div>
-                <div>Exp: {this.props.exp}</div>
+                <div className="Pokecard-data">Type: {this.props.type}</div>
+                <div className="Pokecard-data">Exp: {this.props.exp}</div>
             </div>
         )
     }
